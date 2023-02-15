@@ -1,0 +1,112 @@
+/****************************
+Global Css 
+*************************** */
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 1349px;
+}
+
+/************************* header part css 
+---------------------------*/
+
+header {
+    width: 1349px;
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+header img {
+    width: 95%;
+    display: block;
+    margin:0 auto;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+nav h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-new {
+    text-align: center;
+    margin-top: 116px;
+}
+
+.brand-new h1 {
+    font-weight: 700;
+    font-size: 64px;
+
+}
+
+.brand-new p {
+    font-size: 16px;
+
+}
+
+button {
+    width: 180px;
+    height: 64px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+/**************************
+main section css
+************************* */
+main{
+    width: 1200px;
+    margin: auto;
+}
+.second-part {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-top: 85px;
+}
+
+.quick-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    border-radius: 10px;
+}
+
+.second-part h2 {
+    font-weight: 500; 
+    font-size: 45px;
+}
+.second-part p{
+    font-size: 16px;
+}
+.of-our{
+    color: #131313;
+    font-weight: 700;
+}
+.features{
+    color: #FF900E;
+}
