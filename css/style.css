@@ -20,7 +20,7 @@ header {
 header img {
     width: 95%;
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 nav ul {
@@ -78,10 +78,11 @@ button {
 /**************************
 main section css
 ************************* */
-main{
+main {
     width: 1200px;
     margin: auto;
 }
+
 .second-part {
     display: flex;
     align-items: center;
@@ -97,16 +98,94 @@ main{
 }
 
 .second-part h2 {
-    font-weight: 500; 
+    font-weight: 500;
     font-size: 45px;
 }
-.second-part p{
+
+.second-part p {
     font-size: 16px;
 }
-.of-our{
+
+.of-our {
     color: #131313;
     font-weight: 700;
 }
-.features{
+
+.features {
     color: #FF900E;
+}
+
+/*------- 2nd section -------- */
+.second-section {}
+
+.featured-text {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.featured-text h2 {
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 3px solid #FF900E;
+
+}
+
+.second-sec-decs {
+    margin-top: 50px;
+}
+
+.experience {
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    background-color: #FF900E;
+}
+
+.experience p {
+    /* margin-top: 20px; */
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.experience .small {
+    font-size: 24px;
+}
+
+/* third part css */
+.third-part {
+    width: 542px;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.third-part h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* fourth part css */
+.fourth-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.statictics {
+    text-align: center;
+    border: 1px solid orangered;
+    width: 241.83px;
+    height: 241.83px;
+    border-radius: 10px;
+    justify-items:;
+}
+
+.fourth-part h4 {
+    font-size: 45px;
+}
+
+.fourth-part p {
+    font-size: 20px;
 }
